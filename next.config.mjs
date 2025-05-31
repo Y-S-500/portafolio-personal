@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
- output: 'export',
-  distDir: 'out',
+   output: 'export', // ✅ reemplaza el uso de `next export`
+
   eslint: {
     ignoreDuringBuilds: true,
   },
